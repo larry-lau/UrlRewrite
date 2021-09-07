@@ -1,15 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hi.UrlRewrite", "Hi.UrlRewrite\Hi.UrlRewrite.csproj", "{6AF4A433-0D10-4B1F-8517-7A1F05EF5AB5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Package", "Package", "{E5865C46-58B9-4B41-9762-579DBE7F0008}"
-	ProjectSection(SolutionItems) = preProject
-		Package\URL Rewrite-1.8.2.xml = Package\URL Rewrite-1.8.2.xml
-		Package\URL Rewrite-1.8.2.zip = Package\URL Rewrite-1.8.2.zip
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84322D18-15B2-4D58-8937-1E0698644EB1}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,13 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hi.UrlRewrite.Tests", "Hi.UrlRewrite.Tests\Hi.UrlRewrite.Tests.csproj", "{0CCFFC58-E62F-470F-BF47-E6DD0DEF59CA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5686FF85-C7C2-41E1-92F0-3CDC9DB9AE2D}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53CAAC52-CC44-4E41-8D9B-3FFDCF235660}
 	EndGlobalSection
 EndGlobal

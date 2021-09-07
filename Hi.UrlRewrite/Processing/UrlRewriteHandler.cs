@@ -19,9 +19,11 @@ namespace Hi.UrlRewrite.Processing
         public void ProcessRequest(HttpContext context)
         {
             try
-            {
+            {                
                 var urlRewriteProcessor = new InboundRewriteProcessor();
-                var requestArgs = new HttpRequestArgs(context, HttpRequestType.Begin);
+                //llau: breaking change HttpRequestArgs switch to use HttpContextBase instead of HttpContext
+                var contextBase = new HttpContextWrapper(context);
+                var requestArgs = new HttpRequestArgs(contextBase, HttpRequestType.Begin);
                 var requestUri = context.Request.Url;
 
                 var siteContext = SiteContextFactory.GetSiteContext(requestUri.Host, requestUri.AbsolutePath,

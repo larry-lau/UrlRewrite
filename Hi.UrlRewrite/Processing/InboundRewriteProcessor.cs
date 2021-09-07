@@ -22,9 +22,12 @@ namespace Hi.UrlRewrite.Processing
             try
             {
 
-                if (args.Context == null || db == null) return;
+                if (args.HttpContext == null || db == null) return;
 
-                var httpContext = new HttpContextWrapper(args.Context);
+                //llau: no need to use the HttpContextWrapper class
+                //var httpContext = new HttpContextWrapper(args.Context);
+                var httpContext = args.HttpContext;
+
                 var requestUri = httpContext.Request.Url;
 
                 if (requestUri == null || Configuration.IgnoreUrlPrefixes.Length > 0 && Configuration.IgnoreUrlPrefixes.Any(prefix => requestUri.PathAndQuery.StartsWith(prefix, StringComparison.InvariantCultureIgnoreCase)))
