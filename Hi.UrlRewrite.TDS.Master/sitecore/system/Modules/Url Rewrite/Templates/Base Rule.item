@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {995478B6-29FB-4CF8-B5FB-5C1C5B21BF5A}
+database: master
+path: /sitecore/system/Modules/Url Rewrite/Templates/Base Rule
+parent: {63D9F0B6-70B2-49D7-AC4B-645B3F252AE8}
+name: Base Rule
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 194
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{83AFF04D-C0DA-44D4-8A7E-4BC0A89903E8}|{57516483-A64C-4036-895B-B55D9267A8E6}|{1652DCC0-6319-43D4-853F-B5A441866F86}|{9CE37445-8572-4244-87E7-B0AAFBF87A35}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{F60ABD97-95BE-4882-805F-1B7CC3F122A9}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 39
+
+applications/32x32/bullet_ball_grey.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: e5c3eede-d8f7-438b-a789-5dd943dafc62
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141222T160318
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e5c3eede-d8f7-438b-a789-5dd943dafc62
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150118T161254:635571943746951304
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

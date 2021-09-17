@@ -1,0 +1,143 @@
+----item----
+version: 1
+id: {BCDEDA7A-D6DC-4D2F-9570-7D7F89AAAA0B}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard
+parent: {2DDC9344-FF92-4474-9E28-4755DCA8A433}
+name: Dashboard
+master: {00000000-0000-0000-0000-000000000000}
+template: {B11AFCCD-C286-4384-B694-4465D6C605DE}
+templatekey: Speak-DashboardPage
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 40
+
+OfficeWhite/24x24/presentation_empty.png
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5985
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeTypeName=Sitecore.ExperienceAnalytics.Client.ExperienceAnalyticsPageCode%2c+Sitecore.ExperienceAnalytics.Client" ph="Page.Code" uid="{237256AA-9D30-463E-9ED1-90CFF092FCF6}" />
+    <r id="{BE007891-2D9C-4E67-943C-752DBA0C041F}" ph="Page.Body" uid="{F373AD1A-6282-4295-96D7-3E29D6EE88B3}" />
+    <r id="{54AF5684-6A5F-46D8-A6BB-C7B75D698111}" par="Id=ExperienceAnalyticsDialogWindow" ph="Page.Body" uid="{45DC8203-FB6B-45E1-B8AA-11E45D5764D4}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{532C7DCD-29E7-4C34-9910-FC283D61A026}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="ImageUrl=%2525252525252525252525252525252fsitecore%2525252525252525252525252525252fshell%2525252525252525252525252525252fclient%2525252525252525252525252525252fSpeak%2525252525252525252525252525252fAssets%2525252525252525252525252525252fimg%2525252525252525252525252525252fspeak-logo.png&amp;Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{A340B9F2-9FD0-4767-9B0B-62D7C8B0E5C7}" />
+    <r id="{EA28ED83-0F59-4BB9-AA95-6FAC9C3385D6}" par="Id=NavigationPanelToggleButton" ph="GlobalHeader.NavigationToggler" uid="{44FD157E-53CE-482D-B1A0-675573F9871C}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{26D8A486-711F-4700-9A30-923208798EFF}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{C01DD5BD-DFC2-425B-A301-43AE8363B443}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{1E240370-226C-40E4-9C54-7FE8630DF74A}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="ApplicationHeader.Title" uid="{A30DD785-4D58-4D4B-BB1F-E0390E4E30A9}" />
+    <r id="{AF79ED5D-4396-4EEC-8E22-9D7C523266FA}" par="Id=Breadcrumb&amp;RootItemId=%7bBCDEDA7A-D6DC-4D2F-9570-7D7F89AAAA0B%7d" ph="ApplicationHeader.BreadCrumb" uid="{E9389D21-67AC-4C51-9D11-E53F3EEB239C}" />
+    <r id="{AF905250-6215-4380-985E-E66B4F517129}" par="Id=ExperienceAnalyticsFilters" ph="ApplicationHeader.Actions" uid="{7D5DE5EC-F773-40DC-810B-FBCC9E7DB83F}" />
+    <r id="{EB6214BE-5687-4706-ABA6-B25C0958C85B}" ph="ApplicationContent" uid="{5C96B069-71B7-4B1D-BE44-B673DE81D9DE}" />
+    <r id="{C5D667DE-AA48-4072-872E-7C8BFFCE4D44}" par="Id=LeftNavigation&amp;ItemsDataSource=%7bBCDEDA7A-D6DC-4D2F-9570-7D7F89AAAA0B%7d" ph="ApplicationContent.Navigation" uid="{CCF4219D-43E7-4CC9-A74A-50F139EECBA2}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=MessageBarBorder&amp;PaddingType=Bottom&amp;IsVisible=%7bBinding+MessageBar.HasMessages%7d&amp;UsePadding=1" ph="ApplicationContent.Main" uid="{465D3FCE-DA2C-4AE6-8B14-BDFAAACABC49}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=MessageBar" ph="MessageBarBorder.Content" uid="{4E4A1A39-D82D-4132-B198-1606D0E9D03A}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Main&amp;UsePadding=0" ph="ApplicationContent.Main" uid="{1B0F94E9-7C1C-4764-834C-43444A9C1CD0}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel0" ph="Main.Content" uid="{D3C30DB7-7EA9-4C78-B042-B4ED890F0D42}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel0.1&amp;GridColumns=12" ph="RowPanel0.Content" uid="{46CB4428-83A0-4551-B91E-830B775B8147}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel+1" ph="Main.Content" uid="{154870C6-E151-4691-8E9A-6C4ED2CC42FF}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel+1.1&amp;GridColumns=12" ph="RowPanel 1.Content" uid="{D7D2EA8A-9976-4ACB-9C9B-2A6F7495E46E}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel+2" ph="Main.Content" uid="{4DA617D3-F6CC-491A-9286-864319615452}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel+2.1&amp;GridColumns=6" ph="RowPanel 2.Content" uid="{9B06EB33-05B1-411F-9293-BF040A95EAF9}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel+2.2&amp;GridColumns=6" ph="RowPanel 2.Content" uid="{67ED96A0-1DFA-4340-A1FD-1F459982EFD8}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel+3" ph="Main.Content" uid="{F2BEA2AB-024E-48CD-B8B8-ABE2A2337294}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel+3.1&amp;GridColumns=6" ph="RowPanel 3.Content" uid="{BB513A4F-D7F6-4839-B020-D7FFEDE1C9F0}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel+3.2&amp;GridColumns=6" ph="RowPanel 3.Content" uid="{4A46CC1F-D44C-45EB-9E92-DDD72F8206F2}" />
+    <r ds="{9DCCE103-E5F3-4781-91DF-87F9BCB4421F}" id="{4319FA03-85FA-4E7A-B168-090CC1E8AEE9}" par="Id=OnlineInteractions" ph="ColumnPanel0.1.Content" uid="{8EC3D3B8-7ADF-422E-8650-446DF43E1B07}" />
+    <r ds="{861E9D1B-4F64-4D53-977B-5B8423C6F64F}" id="{F5DA875A-5CCF-46DF-80BB-916A725BDBC1}" par="Id=OnlineInteractionsByVisitsAndValuePerVisit" ph="ColumnPanel 1.1.Content" uid="{6C747963-2CF3-4325-B963-BBC6982ED7CC}" />
+    <r ds="{F8B2FF99-C229-4B29-8496-148834E79070}" id="{1FF941ED-F736-47F8-A397-A7B348BBB225}" par="Id=ChannelsByVisits" ph="ColumnPanel 2.1.Content" uid="{87A13815-7BC6-4859-8682-E206FAABBACA}" />
+    <r ds="{9B6FF84E-2E5A-4CE2-832B-6624AAB10456}" id="{83E5AB85-C613-4648-B4D1-EC4288F1D040}" par="Id=TopTenCampaignsByValue" ph="ColumnPanel 2.2.Content" uid="{120017FD-7E77-4E62-A707-3D9E4CB4D83B}" />
+    <r ds="{AD0F826A-5395-473F-B7A9-ADF1B57241BA}" id="{83E5AB85-C613-4648-B4D1-EC4288F1D040}" par="Id=TopTenGoalsByConversions" ph="ColumnPanel 3.2.Content" uid="{E2B88701-03A1-4B59-8E61-31D2F42764FB}" />
+    <r ds="{6B64F82C-A579-46C3-B49F-975A1656576E}" id="{B1583E40-A5DE-49D7-846B-EF5DBAA0B0F7}" par="Id=TopTenPatternsByValuePerVisit" ph="ColumnPanel 3.1.Content" uid="{7FAD59A8-3C34-4DDF-BEBE-65CA0FD106FF}" />
+  </d>
+</r>
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 63114017-39dc-4aa8-9122-55430ded4ce1
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 32
+
+Experience Analytics - Dashboard
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+63114017-39dc-4aa8-9122-55430ded4ce1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170920T103755Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

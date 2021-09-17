@@ -1,0 +1,149 @@
+----item----
+version: 1
+id: {46C38857-9670-4257-9358-C39C8126A29A}
+database: master
+path: /sitecore/system/Modules/Url Rewrite/Templates/Inbound/Inbound Rule/__Standard Values
+parent: {69DCE9A6-D8C1-463D-AF95-B7FEB326013F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {69DCE9A6-D8C1-463D-AF95-B7FEB326013F}
+templatekey: Inbound Rule
+
+----field----
+field: {232472FF-DE28-43A3-875C-B4051BADC3A2}
+name: Match Type
+key: match type
+content-length: 38
+
+{2C94D94E-6FDA-465B-BCA1-4C18EF249EAB}
+----field----
+field: {644B4909-598F-4FB9-8A6C-455E93AE4D17}
+name: Using
+key: using
+content-length: 38
+
+{75BFA469-AE7D-47FD-9A2F-DD8B3AF0865C}
+----field----
+field: {CEEEB260-EC81-40B6-B2A6-9E56525C599F}
+name: Ignore case
+key: ignore case
+content-length: 1
+
+1
+----field----
+field: {9BCC4CA4-3B9C-4284-B32F-280433F09C01}
+name: Logical grouping
+key: logical grouping
+content-length: 38
+
+{3FCBE882-C812-4C3C-B89F-4E98A2596C97}
+----field----
+field: {14C30096-C351-4AB4-9E08-2DE9B61C8D4F}
+name: Enabled
+key: enabled
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 33
+
+core/32x32/arrowright_green_h.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----field----
+field: {56776EDF-261C-4ABC-9FE7-70C618795239}
+name: __Help link
+key: __help link
+content-length: 227
+
+<link text="Url Rewrite - Rewrite Rule Configuration" linktype="external" url="http://www.iis.net/learn/extensions/url-rewrite-module/url-rewrite-module-configuration-reference#Rewrite_Rule_Configuration" anchor="" target="" />
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 311
+
+{2083F66B-0A94-4F9C-9833-EF53FAD05D70}|{0035B824-507B-4F69-9A1E-FFC2DD738D2D}|{D199EF8B-9D4D-420F-A283-E16D7B575625}|{7ACB0905-11D7-47BD-94B3-A903D264135F}|{5B7FB661-CB6C-449C-9C84-2672538AC77C}|{A96D8E98-38B7-4D99-BE55-D5225F6D8279}|{BD8E6E5E-62F8-4397-99CA-B0502AFD14B9}|{BA67D115-9A49-4EAB-8CDF-596CB6F0CBF1}
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{30D1BA49-44F5-4A99-8B3A-9815F41A31AA}
+----version----
+language: en
+version: 1
+revision: e1123c84-d8b9-4f3b-b1c1-fc3bc167b9f7
+
+----field----
+field: {577F1689-7DE4-4AD2-A15F-7FDC1759285F}
+name: __Long description
+key: __long description
+content-length: 0
+
+
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 15
+
+sitecore\acohen
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140509T082427
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 15
+
+sitecore\acohen
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e1123c84-d8b9-4f3b-b1c1-fc3bc167b9f7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150105T094157:635560477176874171
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

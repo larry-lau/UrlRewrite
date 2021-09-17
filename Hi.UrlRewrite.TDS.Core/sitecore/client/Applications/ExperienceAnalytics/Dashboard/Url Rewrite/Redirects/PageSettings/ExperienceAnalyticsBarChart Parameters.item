@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {97ACE74F-4C95-4930-9BA6-D6B832601393}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Url Rewrite/Redirects/PageSettings/ExperienceAnalyticsBarChart Parameters
+parent: {A2475E71-187B-498C-9699-03569B8C4A2F}
+name: ExperienceAnalyticsBarChart Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {230EE01C-6CB0-46D6-925F-6C70A30706BA}
+templatekey: ExperienceAnalyticsBarChart Parameters
+
+----field----
+field: {7E9E1C5C-9988-462E-94EC-B1549D1CD0E4}
+name: Metric
+key: metric
+content-length: 38
+
+{8B43A15F-0603-4269-9BEA-E437EA85C422}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{BA6E2A68-7531-4B6A-ACA9-D37C8AA28C14}
+----field----
+field: {13CF962B-9899-4421-8206-8BDC3BF117D1}
+name: KeysSortByMetric
+key: keyssortbymetric
+content-length: 38
+
+{8B43A15F-0603-4269-9BEA-E437EA85C422}
+----field----
+field: {5B3AC62D-EEDB-4F89-A311-EF958BBDB762}
+name: DrilldownOption
+key: drilldownoption
+content-length: 38
+
+{3B4EF40B-2BF9-4143-B930-65B080F6D357}
+----version----
+language: en
+version: 1
+revision: 467206df-a861-4ac9-8eb3-10f367c3f780
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 18
+
+Redirects by Count
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 22
+
+Top Redirects by Count
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151024T010143Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+467206df-a861-4ac9-8eb3-10f367c3f780
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20161012T135231Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

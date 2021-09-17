@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {C57DA16D-8633-4039-849B-7D521AF0FADA}
+database: master
+path: /sitecore/system/Modules/Url Rewrite/Templates/Action/Custom Response/__Standard Values
+parent: {A96D8E98-38B7-4D99-BE55-D5225F6D8279}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A96D8E98-38B7-4D99-BE55-D5225F6D8279}
+templatekey: Custom Response
+
+----field----
+field: {6A605986-0706-472A-B0E7-7CCA019D11A3}
+name: Status code
+key: status code
+content-length: 1
+
+0
+----field----
+field: {503ECB1C-C7A9-4DFF-A756-3786E24A730C}
+name: Substatus code
+key: substatus code
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 3ff0a407-3f05-4f15-9877-a3298db30166
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140509T085236
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ff0a407-3f05-4f15-9877-a3298db30166
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140509T085244:635352223648782764
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 15
+
+sitecore\acohen

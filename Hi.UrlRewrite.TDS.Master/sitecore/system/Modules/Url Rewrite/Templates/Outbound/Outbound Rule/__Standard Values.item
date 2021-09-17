@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {A2754D06-CBD2-4A99-8448-C614C614A43C}
+database: master
+path: /sitecore/system/Modules/Url Rewrite/Templates/Outbound/Outbound Rule/__Standard Values
+parent: {DC4D631D-E17D-4F18-A19F-3554CD4EB756}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {DC4D631D-E17D-4F18-A19F-3554CD4EB756}
+templatekey: Outbound Rule
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+Applications/32x32/nav_right_red.png
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 194
+
+{2083F66B-0A94-4F9C-9833-EF53FAD05D70}|{0035B824-507B-4F69-9A1E-FFC2DD738D2D}|{A5E7B43A-4387-4109-950E-6181452F4976}|{E07F2DBA-75E2-4621-91B4-A1A756289D20}|{31CBA307-BE81-4E55-96E4-62F70B2CBF47}
+----version----
+language: en
+version: 1
+revision: a1609724-b43c-4710-8818-c46cb63423e5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141222T144548
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a1609724-b43c-4710-8818-c46cb63423e5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150102T111501:635557941017267490
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

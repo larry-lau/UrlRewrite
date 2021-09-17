@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {3CF68609-B1F2-4ADE-B7E3-91B5CF74F5B8}
+database: master
+path: /sitecore/system/Modules/Url Rewrite/Rendering/UrlRewriter
+parent: {B9C0818B-B6F2-4B55-A90B-E05A94489B0A}
+name: UrlRewriter
+master: {00000000-0000-0000-0000-000000000000}
+template: {F4C6D58B-367B-4F54-8C9F-77183D248189}
+templatekey: UrlRewriter
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 12
+
+<tracking />
+----version----
+language: en
+version: 1
+revision: 1cfff55a-8bf0-40ef-b61e-ecf12fa82932
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151021T000950Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1cfff55a-8bf0-40ef-b61e-ecf12fa82932
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151023T214224Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

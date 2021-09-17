@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {B8B054CE-6D15-424F-B7BC-6A339B33E6BB}
+database: master
+path: /sitecore/templates/User Defined/Url Rewrite/Redirect Folder/__Standard Values
+parent: {CBE995D0-FCE0-4061-B807-B4BBC89962A7}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {CBE995D0-FCE0-4061-B807-B4BBC89962A7}
+templatekey: Redirect Folder
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 26
+
+Network/32x32/download.png
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 155
+
+{9461E537-8E89-4B91-896A-1F2C3AF4A3D5}|{E30B15B9-34CD-419C-8671-60FEAAAD5A46}|{69DCE9A6-D8C1-463D-AF95-B7FEB326013F}|{DC4D631D-E17D-4F18-A19F-3554CD4EB756}
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{30D1BA49-44F5-4A99-8B3A-9815F41A31AA}
+----version----
+language: en
+version: 1
+revision: 84122067-2b73-4cea-803e-00dc20addb07
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140509T115736
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 15
+
+sitecore\acohen
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+84122067-2b73-4cea-803e-00dc20addb07
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150221T175359:635601380394655157
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

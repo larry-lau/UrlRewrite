@@ -45,12 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Sitecore.Assemblies.Platform" />
     <PackageReference Include="Sitecore.Kernel" />
     <PackageReference Include="Sitecore.Analytics" />
     <PackageReference Include="Sitecore.Analytics.Core" />
     <PackageReference Include="Sitecore.Analytics.Model" />
     <PackageReference Include="Sitecore.ExperienceAnalytics.Aggregation" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

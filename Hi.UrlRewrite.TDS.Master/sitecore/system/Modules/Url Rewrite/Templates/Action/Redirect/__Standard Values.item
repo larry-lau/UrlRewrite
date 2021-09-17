@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {3CEE875E-BD62-44C4-9C38-796EC9AB2DC9}
+database: master
+path: /sitecore/system/Modules/Url Rewrite/Templates/Action/Redirect/__Standard Values
+parent: {D199EF8B-9D4D-420F-A283-E16D7B575625}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {D199EF8B-9D4D-420F-A283-E16D7B575625}
+templatekey: Redirect
+
+----field----
+field: {8D4633FD-139D-443F-BE40-E2918D49C63E}
+name: Redirect type
+key: redirect type
+content-length: 38
+
+{C194D441-47EB-4C89-A336-4FDE6A2DC6B3}
+----field----
+field: {8B11C099-83A4-487C-B070-9E1AD6B56013}
+name: HttpCacheability
+key: httpcacheability
+content-length: 38
+
+{9FF1B0F9-D0B5-417C-9DD6-5228931F23BF}
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{30D1BA49-44F5-4A99-8B3A-9815F41A31AA}
+----version----
+language: en
+version: 1
+revision: 59598d45-7e85-4aa5-a752-c4cf952fcdc6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140509T084855
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+59598d45-7e85-4aa5-a752-c4cf952fcdc6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141117T122034:635518236342360563
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

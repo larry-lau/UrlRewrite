@@ -4,6 +4,7 @@
     <PlatformVersion>10.1.1</PlatformVersion>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Update="Sitecore.Assemblies.Platform" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.Kernel" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.Analytics" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.Analytics.Core" Version="$(PlatformVersion)" />
@@ -11,6 +12,6 @@
     <PackageReference Update="Sitecore.ExperienceAnalytics.Aggregation" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.Mvc" Version="$(PlatformVersion)" />
     <PackageReference Update="Moq" Version="4.16.1" />
-    <PackageReference Update="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+    <PackageReference Update="HedgehogDevelopment.TDS" Version="6.0.0.31" />
   </ItemGroup>
 </Project>

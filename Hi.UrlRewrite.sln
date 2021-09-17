@@ -7,10 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hi.UrlRewrite", "Hi.UrlRewr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84322D18-15B2-4D58-8937-1E0698644EB1}"
 	ProjectSection(SolutionItems) = preProject
+		Directory.Build.targets = Directory.Build.targets
+		Packages.props = Packages.props
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hi.UrlRewrite.Tests", "Hi.UrlRewrite.Tests\Hi.UrlRewrite.Tests.csproj", "{0CCFFC58-E62F-470F-BF47-E6DD0DEF59CA}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Hi.UrlRewrite.TDS.Core", "Hi.UrlRewrite.TDS.Core\Hi.UrlRewrite.TDS.Core.scproj", "{C5000B38-F1F1-4A0F-A5EF-83DD8DA8F0F7}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Hi.UrlRewrite.TDS.Master", "Hi.UrlRewrite.TDS.Master\Hi.UrlRewrite.TDS.Master.scproj", "{490B8EC7-D4F3-4791-AD9C-D8CF73D0A3EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +32,18 @@ Global
 		{0CCFFC58-E62F-470F-BF47-E6DD0DEF59CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CCFFC58-E62F-470F-BF47-E6DD0DEF59CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CCFFC58-E62F-470F-BF47-E6DD0DEF59CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5000B38-F1F1-4A0F-A5EF-83DD8DA8F0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5000B38-F1F1-4A0F-A5EF-83DD8DA8F0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5000B38-F1F1-4A0F-A5EF-83DD8DA8F0F7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C5000B38-F1F1-4A0F-A5EF-83DD8DA8F0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5000B38-F1F1-4A0F-A5EF-83DD8DA8F0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5000B38-F1F1-4A0F-A5EF-83DD8DA8F0F7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{490B8EC7-D4F3-4791-AD9C-D8CF73D0A3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490B8EC7-D4F3-4791-AD9C-D8CF73D0A3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490B8EC7-D4F3-4791-AD9C-D8CF73D0A3EB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{490B8EC7-D4F3-4791-AD9C-D8CF73D0A3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490B8EC7-D4F3-4791-AD9C-D8CF73D0A3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490B8EC7-D4F3-4791-AD9C-D8CF73D0A3EB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {6291A074-DCB6-47AF-A578-58F9A945A563}
+database: master
+path: /sitecore/system/Modules/Url Rewrite/Templates/Conditions/Base Condition/__Standard Values
+parent: {1CDF3BDD-0A44-42CD-9D40-FBA83B981F48}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {1CDF3BDD-0A44-42CD-9D40-FBA83B981F48}
+templatekey: Base Condition
+
+----field----
+field: {EA0734DC-A77B-400B-A966-44C759956608}
+name: Check if input string
+key: check if input string
+content-length: 38
+
+{B30DC355-4122-4260-8AC6-0F9E93205556}
+----field----
+field: {94DCDDB8-3889-45C3-9619-052DC39B7979}
+name: Ignore case
+key: ignore case
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 29
+
+applications/32x32/check2.png
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 1fdf803b-a879-4052-a859-ad22ecef12cd
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141212T101042
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1fdf803b-a879-4052-a859-ad22ecef12cd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141212T101525:635539761254667449
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

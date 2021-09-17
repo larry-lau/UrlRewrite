@@ -1,0 +1,95 @@
+----item----
+version: 1
+id: {CD21866D-51CA-49D9-A705-FE4B593BC5CD}
+database: master
+path: /sitecore/system/Settings/Rules/Insert Options/Rules/Url Rewrite Outbound Rule
+parent: {FF0BC016-2D01-4F55-A020-EF6FC2FE7559}
+name: Url Rewrite Outbound Rule
+master: {00000000-0000-0000-0000-000000000000}
+template: {664E5035-EB8C-4BA1-9731-A098FCC9127A}
+templatekey: Insert Options Rule
+
+----field----
+field: {FA307B86-DA2A-44BD-887D-E2057CDB4948}
+name: Rule
+key: rule
+content-length: 1291
+
+<ruleset>
+  <rule uid="{89575858-A510-420E-9DC4-098E41148FCB}">
+    <conditions>
+      <and uid="F4D5632736C54C50A5BB1FDEE140600C">
+        <condition id="{293A0E29-EF18-40C3-8766-A53363E5D37C}" uid="A74708639083446C9045A5B87EC24D51" except="true" />
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="A43CE031CC504AEFB4A0FC1A4AD99F9C" templateid="{CBE995D0-FCE0-4061-B807-B4BBC89962A7}" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{4B35D4CC-BF85-4F10-8CED-81984EAC2BA5}" uid="B38A995492D24B9FAD58BDEECDC5AC0F" insertoptionid="{DC4D631D-E17D-4F18-A19F-3554CD4EB756}" />
+    </actions>
+  </rule>
+  <rule uid="{D6F90F82-F51D-4F13-B164-F9AE68A93CCB}">
+    <conditions>
+      <and uid="7AACE59046394FB7B596B0EE49B6ACDA">
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="0C54D6FD657944BD8EC502EC47E0A8E4" templateid="{9461E537-8E89-4B91-896A-1F2C3AF4A3D5}" />
+        <condition id="{293A0E29-EF18-40C3-8766-A53363E5D37C}" uid="C3E98F0B7A5642C1B3FB0CDD02F3B62F" except="true" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{4B35D4CC-BF85-4F10-8CED-81984EAC2BA5}" uid="06615B9B1B8D4B71A85A0CD89008F186" insertoptionid="{DC4D631D-E17D-4F18-A19F-3554CD4EB756}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 1fa430b2-8759-4ea2-ba86-b66de52c1129
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 121
+
+When the OutboundModule is not installed and the parent item is a Rewrite Folder, remove the Outbound Rule insert option.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150221T130428
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1fa430b2-8759-4ea2-ba86-b66de52c1129
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150221T175100:635601378600764286
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
