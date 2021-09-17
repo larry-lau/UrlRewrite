@@ -5,14 +5,14 @@ namespace Hi.UrlRewrite.Entities.Actions.Base
 {
     public interface IBaseRedirect : IBaseRewriteUrl, IBaseAppendQueryString, IBaseCache, IBaseStopProcessing, IBaseStatusCode
     {
-        string Name { get; set; }
-        string RewriteUrl { get; set; }
-        Guid? RewriteItemId { get; set; }
-        string RewriteItemAnchor { get; set; }
-        bool AppendQueryString { get; set; }
+        new string Name { get; set; }
+        new string RewriteUrl { get; set; }
+        new Guid? RewriteItemId { get; set; }
+        new string RewriteItemAnchor { get; set; }
+        new bool AppendQueryString { get; set; }
 
-        HttpCacheability? HttpCacheability { get; set; }
-        bool StopProcessingOfSubsequentRules { get; set; }
-        RedirectStatusCode? StatusCode { get; set; }
+        new HttpCacheability? HttpCacheability { get; set; }
+        new bool StopProcessingOfSubsequentRules { get; set; }
+        new RedirectStatusCode? StatusCode { get; set; }
     }
 }
