@@ -390,5 +390,11 @@
     <SitecoreItem Include="sitecore\templates\User Defined\Url Rewrite\Redirect Folder\Site.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined\Url Rewrite\Redirect Folder\Site\Site Name Restriction.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
   </ItemGroup>
-  <Import Project="..\HedgehogDevelopment.TDS.targets" />
+  <Import Project="..\packages\HedgehogDevelopment.TDS.6.0.0.31\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.6.0.0.31\build\HedgehogDevelopment.TDS.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+        <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\HedgehogDevelopment.TDS.6.0.0.31\build\HedgehogDevelopment.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HedgehogDevelopment.TDS.6.0.0.31\build\HedgehogDevelopment.TDS.targets'))" />
+  </Target>  
 </Project>
