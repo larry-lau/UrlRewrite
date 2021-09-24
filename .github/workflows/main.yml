@@ -34,11 +34,11 @@ jobs:
       - name: Restore NuGet Packages
         run: nuget restore Hi.UrlRewrite.sln
       
-      - name: Build and Publish Web App
-        run: msbuild Hi.UrlRewrite.sln  /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
+      - name: Build and Publish Web App        
+        run: msbuild Hi.UrlRewrite.sln /p:Configuration=Release /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishUrl=_publish /p:DebugSymbols=false /p:DebugType=None
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v1.0.0
         with:
           name: published_webapp
-          path: bin\Release\Publish
+          path: Hi.UrlRewrite\_publish
