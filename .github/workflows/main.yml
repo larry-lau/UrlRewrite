@@ -36,6 +36,9 @@ jobs:
       
       - name: Build and Publish Web App        
         run: msbuild Hi.UrlRewrite.sln /p:Configuration=Release /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishUrl=_publish /p:DebugSymbols=false /p:DebugType=None
+      
+      - name: Unit Tests
+        run: vstest.console Hi.UrlRewrite.Tests\bin\Release\Hi.UrlRewrite.Tests.dll
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v1.0.0
