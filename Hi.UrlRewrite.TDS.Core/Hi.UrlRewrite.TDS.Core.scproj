@@ -34,6 +34,9 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <ItemResourceBuildResourceFile>True</ItemResourceBuildResourceFile>
+    <ItemResourceFilePrefix>_hi.urlrewrite</ItemResourceFilePrefix>
+    <ItemResourceDeployResources>False</ItemResourceDeployResources>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
