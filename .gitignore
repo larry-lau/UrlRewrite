@@ -163,3 +163,5 @@ Assemblies/
 .vs/*
 
 ItemResources_*/
+_publish/
+TdsGeneratedPackages/
