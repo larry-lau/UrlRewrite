@@ -8,6 +8,7 @@ param(
 	$SolutionFile = "Hi.UrlRewrite.sln",
 	[Switch]$SkipRestore,
 	[Switch]$SkipBuild,
+	[Switch]$SkipTest,
 	[Switch]$SkipCopy
 )
 
@@ -38,6 +39,12 @@ if (!$SkipBuild)
 	}
 	
 	& $MSBuildPath $SolutionFile /p:Configuration=$Configuration /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishUrl=$WebsiteOutputPath /p:DebugSymbols=false /p:DebugType=None
+}
+
+if (!$SkipTest)
+{
+	$VSTestPath = &"${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -property installationPath
+	& "$VSTestPath\Common7\IDE\Extensions\TestPlatform\vstest.console.exe" Hi.UrlRewrite.Tests\bin\Release\Hi.UrlRewrite.Tests.dll
 }
 
 if (!$SkipCopy)
