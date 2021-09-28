@@ -35,6 +35,9 @@ jobs:
         run: nuget restore Hi.UrlRewrite.sln
       
       - name: Build and Publish Web App        
+        env:
+          TDS_Owner: ${{ secrets.TDS_Owner }}
+          TDS_Key: ${{ secrets.TDS_Key }}
         run: msbuild Hi.UrlRewrite.sln /p:Configuration=Release /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishUrl=_publish /p:DebugSymbols=false /p:DebugType=None
 
       - name: Copy ItemResources
